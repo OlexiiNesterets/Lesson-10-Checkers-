@@ -1,0 +1,114 @@
+.page {
+    background: #82a5ab;
+}
+
+.board {
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    background: rgb(128, 50, 50);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: 0 0 80px #616161;
+}
+
+.board_background {
+    position: relative;
+}
+
+.row {
+    padding: 0;
+    font-size: 0;
+    background: rgb(228, 228, 228);
+}
+
+.row__item {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.row__item--black-first:nth-child(odd) {
+    background: rgb(24, 24, 24);
+}
+
+.row__item--white-first:nth-child(even) {
+    background: rgb(24, 24, 24);
+}
+
+.checker {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transform: scale(0.85);
+}
+
+/* checker modifires */
+
+.checker--red {
+    background: rgb(218, 44, 44);
+}
+
+.checker--white {
+    background: rgb(255, 255, 255);
+}
+
+.checker--row-1 {
+    top: 0px;
+}
+
+.checker--row-2 {
+    top: 80px;
+}
+
+.checker--row-3 {
+    top: 160px;
+}
+
+.checker--row-6 {
+    top: 400px;
+}
+
+.checker--row-7 {
+    top: 480px;
+}
+
+.checker--row-8 {
+    top: 560px;
+}
+
+.checker--column-1 {
+    left: 0px;
+}
+
+.checker--column-2 {
+    left: 80px;
+}
+
+.checker--column-3 {
+    left: 160px;
+}
+
+.checker--column-4 {
+    left: 240px;
+}
+
+.checker--column-5 {
+    left: 320px;
+}
+
+.checker--column-6 {
+    left: 400px;
+}
+
+.checker--column-7 {
+    left: 480px;
+}
+
+.checker--column-8 {
+    left: 560px;
+}
