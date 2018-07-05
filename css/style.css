@@ -3,14 +3,10 @@
     background: #82a5ab;
 }
 
-.wrapper-for-positioning {
+.board {
     position: absolute;
     left: 180px;
     top: 70px;
-}
-
-.board-wrapper {
-    position: relative;
 }
 
 .checker {
